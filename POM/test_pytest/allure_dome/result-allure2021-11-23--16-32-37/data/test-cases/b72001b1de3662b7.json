@@ -1,0 +1,284 @@
+{
+  "uid" : "b72001b1de3662b7",
+  "name" : "用例名称：用户登录--登录成功",
+  "fullName" : "test_pytest.allure_dome.test_case_pytest.TestCase#test_01",
+  "historyId" : "7aefe153082c7ae5c729891a04995b2c",
+  "time" : {
+    "start" : 1637656333937,
+    "stop" : 1637656336545,
+    "duration" : 2608
+  },
+  "description" : "\n           用例描述：登录-登录成功\n           0.浏览器打开系统地址\n           1.进入登录界面\n           2.输入用户名及密码\n           3.点击登录按钮\n           assert：登录成功，页面存在退出按钮\n        ",
+  "descriptionHtml" : "<pre><code>       用例描述：登录-登录成功\n       0.浏览器打开系统地址\n       1.进入登录界面\n       2.输入用户名及密码\n       3.点击登录按钮\n       assert：登录成功，页面存在退出按钮\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_function",
+    "time" : {
+      "start" : 1637656322889,
+      "stop" : 1637656333936,
+      "duration" : 11047
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录功能",
+      "time" : {
+        "start" : 1637656322890,
+        "stop" : 1637656333936,
+        "duration" : 11046
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step1:浏览器打开系统地址",
+        "time" : {
+          "start" : 1637656322890,
+          "stop" : 1637656330266,
+          "duration" : 7376
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step2:点击登陆按钮进入登录页面",
+        "time" : {
+          "start" : 1637656330266,
+          "stop" : 1637656331822,
+          "duration" : 1556
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step3:输入用户名",
+        "time" : {
+          "start" : 1637656331822,
+          "stop" : 1637656332861,
+          "duration" : 1039
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step4:输入密码",
+        "time" : {
+          "start" : 1637656332861,
+          "stop" : 1637656333906,
+          "duration" : 1045
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step5:点击登录按钮进行登录",
+        "time" : {
+          "start" : 1637656333906,
+          "stop" : 1637656333936,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'guoxuanwei222'"
+      }, {
+        "name" : "password",
+        "value" : "'guoxuanwei222'"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1637656317428,
+      "stop" : 1637656322889,
+      "duration" : 5461
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开浏览器",
+      "time" : {
+        "start" : 1637656322888,
+        "stop" : 1637656322888,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n           用例描述：登录-登录成功\n           0.浏览器打开系统地址\n           1.进入登录界面\n           2.输入用户名及密码\n           3.点击登录按钮\n           assert：登录成功，页面存在退出按钮\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assert：断言：登录成功后出现退出按钮",
+      "time" : {
+        "start" : 1637656333938,
+        "stop" : 1637656336545,
+        "duration" : 2607
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "19f9389ef7215568",
+      "name" : "stdout",
+      "source" : "19f9389ef7215568.txt",
+      "type" : "text/plain",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1637656355432,
+      "stop" : 1637656357773,
+      "duration" : 2341
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "关闭浏览器",
+      "time" : {
+        "start" : 1637656355432,
+        "stop" : 1637656357773,
+        "duration" : 2341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "登录成功场景"
+  }, {
+    "name" : "feature",
+    "value" : "用户登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_pytest.allure_dome"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-55IC4I6"
+  }, {
+    "name" : "thread",
+    "value" : "8440-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest.allure_dome.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'guoxuanwei222'"
+  }, {
+    "name" : "username",
+    "value" : "'guoxuanwei222'"
+  } ],
+  "links" : [ {
+    "name" : "http://www.baidu.com",
+    "url" : "http://www.baidu.com",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.baidu.com",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b72001b1de3662b7.json",
+  "parameterValues" : [ "'guoxuanwei222'", "'guoxuanwei222'" ]
+}

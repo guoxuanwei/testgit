@@ -1,0 +1,23 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Nov 23 16:32:13 CST 2021","Tue Nov 23 16:32:16 CST 2021","2608","test_pytest.allure_dome","test_case_pytest","TestCase","","","用例名称：用户登录--登录成功","
+           用例描述：登录-登录成功
+           0.浏览器打开系统地址
+           1.进入登录界面
+           2.输入用户名及密码
+           3.点击登录按钮
+           assert：登录成功，页面存在退出按钮
+        "
+"passed","Tue Nov 23 16:32:29 CST 2021","Tue Nov 23 16:32:35 CST 2021","5795","test_pytest.allure_dome","test_case_pytest","TestCase","","","用例名称：清空购物车所有商品","
+              用例描述：清空购物车所有商品
+              0.进入购物车页面
+              1.点击清空按钮
+              2.点击确定按钮
+              assert：购物车没有商品
+        "
+"passed","Tue Nov 23 16:32:16 CST 2021","Tue Nov 23 16:32:29 CST 2021","13082","test_pytest.allure_dome","test_case_pytest","TestCase","","","用例名称：添加商品至购物车","
+              用例描述：查看商品
+              0.输入商品名称
+              1.点击查询按钮
+              2.点击查询出的商品
+              assert：添加的商品存在购物车且数量正确
+        "

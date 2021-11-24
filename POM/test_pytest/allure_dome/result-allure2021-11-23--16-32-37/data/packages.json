@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_pytest.allure_dome.test_case_pytest",
+    "children" : [ {
+      "name" : "用例名称：用户登录--登录成功",
+      "uid" : "b72001b1de3662b7",
+      "parentUid" : "6615a5fc4956d776fd5f722bfb432608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637656333937,
+        "stop" : 1637656336545,
+        "duration" : 2608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'guoxuanwei222'", "'guoxuanwei222'" ]
+    }, {
+      "name" : "用例名称：添加商品至购物车",
+      "uid" : "ce5133ffd0ce26ce",
+      "parentUid" : "6615a5fc4956d776fd5f722bfb432608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637656336549,
+        "stop" : 1637656349631,
+        "duration" : 13082
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'苹果'", "5" ]
+    }, {
+      "name" : "用例名称：清空购物车所有商品",
+      "uid" : "155ebb313a202f4a",
+      "parentUid" : "6615a5fc4956d776fd5f722bfb432608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1637656349635,
+        "stop" : 1637656355430,
+        "duration" : 5795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'xpath'", "'//div[contains(@class,\"mixed\")]/h1'" ]
+    } ],
+    "uid" : "test_pytest.allure_dome.test_case_pytest"
+  } ]
+}
