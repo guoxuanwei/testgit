@@ -1,0 +1,494 @@
+{
+  "uid" : "ce5133ffd0ce26ce",
+  "name" : "用例名称：添加商品至购物车",
+  "fullName" : "test_pytest.allure_dome.test_case_pytest.TestCase#test_02",
+  "historyId" : "e811e67694d0dacf3324d8cf4babc24e",
+  "time" : {
+    "start" : 1637656336549,
+    "stop" : 1637656349631,
+    "duration" : 13082
+  },
+  "description" : "\n              用例描述：查看商品\n              0.输入商品名称\n              1.点击查询按钮\n              2.点击查询出的商品\n              assert：添加的商品存在购物车且数量正确\n        ",
+  "descriptionHtml" : "<pre><code>          用例描述：查看商品\n          0.输入商品名称\n          1.点击查询按钮\n          2.点击查询出的商品\n          assert：添加的商品存在购物车且数量正确\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_function",
+    "time" : {
+      "start" : 1637656322889,
+      "stop" : 1637656333936,
+      "duration" : 11047
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录功能",
+      "time" : {
+        "start" : 1637656322890,
+        "stop" : 1637656333936,
+        "duration" : 11046
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step1:浏览器打开系统地址",
+        "time" : {
+          "start" : 1637656322890,
+          "stop" : 1637656330266,
+          "duration" : 7376
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step2:点击登陆按钮进入登录页面",
+        "time" : {
+          "start" : 1637656330266,
+          "stop" : 1637656331822,
+          "duration" : 1556
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step3:输入用户名",
+        "time" : {
+          "start" : 1637656331822,
+          "stop" : 1637656332861,
+          "duration" : 1039
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step4:输入密码",
+        "time" : {
+          "start" : 1637656332861,
+          "stop" : 1637656333906,
+          "duration" : 1045
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step5:点击登录按钮进行登录",
+        "time" : {
+          "start" : 1637656333906,
+          "stop" : 1637656333936,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'guoxuanwei222'"
+      }, {
+        "name" : "password",
+        "value" : "'guoxuanwei222'"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1637656317428,
+      "stop" : 1637656322889,
+      "duration" : 5461
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开浏览器",
+      "time" : {
+        "start" : 1637656322888,
+        "stop" : 1637656322888,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n              用例描述：查看商品\n              0.输入商品名称\n              1.点击查询按钮\n              2.点击查询出的商品\n              assert：添加的商品存在购物车且数量正确\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "查询商品",
+      "time" : {
+        "start" : 1637656336550,
+        "stop" : 1637656337893,
+        "duration" : 1343
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入搜索商品页",
+        "time" : {
+          "start" : 1637656336550,
+          "stop" : 1637656337203,
+          "duration" : 653
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "输入商品：",
+        "time" : {
+          "start" : 1637656337203,
+          "stop" : 1637656337236,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "点击搜索按钮",
+        "time" : {
+          "start" : 1637656337236,
+          "stop" : 1637656337794,
+          "duration" : 558
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "点击商品，进入商品详情页",
+        "time" : {
+          "start" : 1637656337795,
+          "stop" : 1637656337893,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'苹果'"
+      } ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "添加商品到购物车功能",
+      "time" : {
+        "start" : 1637656339751,
+        "stop" : 1637656347389,
+        "duration" : 7638
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step1：进入商品详情页",
+        "time" : {
+          "start" : 1637656339751,
+          "stop" : 1637656341184,
+          "duration" : 1433
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step2：选择商品套餐",
+        "time" : {
+          "start" : 1637656341184,
+          "stop" : 1637656342221,
+          "duration" : 1037
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step3：选择商品颜色",
+        "time" : {
+          "start" : 1637656342221,
+          "stop" : 1637656343250,
+          "duration" : 1029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step4：选择商品容量",
+        "time" : {
+          "start" : 1637656343250,
+          "stop" : 1637656344293,
+          "duration" : 1043
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step5：选择商品数量",
+        "time" : {
+          "start" : 1637656344293,
+          "stop" : 1637656347358,
+          "duration" : 3065
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "step6：点击加入购物车按钮",
+        "time" : {
+          "start" : 1637656347358,
+          "stop" : 1637656347389,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "num",
+        "value" : "5"
+      } ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "查看购物车商品",
+      "time" : {
+        "start" : 1637656348398,
+        "stop" : 1637656349631,
+        "duration" : 1233
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "step1：进入购物车页面",
+        "time" : {
+          "start" : 1637656348398,
+          "stop" : 1637656349615,
+          "duration" : 1217
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "断言：添加的商品存在购物车且数量正确",
+      "time" : {
+        "start" : 1637656349631,
+        "stop" : 1637656349631,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1637656355432,
+      "stop" : 1637656357773,
+      "duration" : 2341
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "关闭浏览器",
+      "time" : {
+        "start" : 1637656355432,
+        "stop" : 1637656357773,
+        "duration" : 2341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "添加商品场景"
+  }, {
+    "name" : "feature",
+    "value" : "购物车管理模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_pytest.allure_dome"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-55IC4I6"
+  }, {
+    "name" : "thread",
+    "value" : "8440-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest.allure_dome.test_case_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "'苹果'"
+  }, {
+    "name" : "data1",
+    "value" : "5"
+  } ],
+  "links" : [ {
+    "name" : "http://www.baidu.com",
+    "url" : "http://www.baidu.com",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.baidu.com",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce5133ffd0ce26ce.json",
+  "parameterValues" : [ "'苹果'", "5" ]
+}

@@ -1,0 +1,68 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "用户登录模块",
+    "children" : [ {
+      "name" : "登录成功场景",
+      "children" : [ {
+        "name" : "用例名称：用户登录--登录成功",
+        "uid" : "b72001b1de3662b7",
+        "parentUid" : "12fdb86e86933c21370ba6308ee7f84a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637656333937,
+          "stop" : 1637656336545,
+          "duration" : 2608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'guoxuanwei222'", "'guoxuanwei222'" ]
+      } ],
+      "uid" : "12fdb86e86933c21370ba6308ee7f84a"
+    } ],
+    "uid" : "05646e648af63fcfbd8167c4ad0a2d02"
+  }, {
+    "name" : "购物车管理模块",
+    "children" : [ {
+      "name" : "添加商品场景",
+      "children" : [ {
+        "name" : "用例名称：添加商品至购物车",
+        "uid" : "ce5133ffd0ce26ce",
+        "parentUid" : "610db0676f5351cd62c76acf3b93cde4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637656336549,
+          "stop" : 1637656349631,
+          "duration" : 13082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'苹果'", "5" ]
+      } ],
+      "uid" : "610db0676f5351cd62c76acf3b93cde4"
+    } ],
+    "uid" : "e6093de810110c1e3c7eea1f76acfefb"
+  }, {
+    "name" : "购物车模块",
+    "children" : [ {
+      "name" : "清空购物车场景",
+      "children" : [ {
+        "name" : "用例名称：清空购物车所有商品",
+        "uid" : "155ebb313a202f4a",
+        "parentUid" : "0ad2322541c4902f0741d415a4887841",
+        "status" : "passed",
+        "time" : {
+          "start" : 1637656349635,
+          "stop" : 1637656355430,
+          "duration" : 5795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'xpath'", "'//div[contains(@class,\"mixed\")]/h1'" ]
+      } ],
+      "uid" : "0ad2322541c4902f0741d415a4887841"
+    } ],
+    "uid" : "a83f24d9e1c208095768a6add7b4e5f8"
+  } ]
+}
