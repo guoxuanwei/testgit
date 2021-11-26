@@ -1,0 +1,12 @@
+- test01:
+    data:
+      - url: /asn/list/
+        method: post
+        params_type: json
+        test_data:
+          creater: admin
+        assert_info:
+          jsonpath: $..asn_status
+          expect: 1
+        set_arg:
+          - asn_code: $..asn_code

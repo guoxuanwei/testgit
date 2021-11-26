@@ -1,0 +1,65 @@
+test01:
+  data:
+    - url: /login/
+      method: post
+      params_type: json
+      test_data:
+        name: admin
+        password: 123456
+      assert_info:
+        jsonpath: $..code
+        expect: '200'
+      update_header:
+        - token: $..openid
+test02:
+  data:
+    - url: /asn/list/
+      method: post
+      params_type: json
+      test_data:
+        creater: admin
+      assert_info:
+        jsonpath: $..asn_status
+        expect: 1
+      set_arg:
+        - asn_code: $..asn_code
+test03:
+  data:
+    - url: /asn/detail/
+      method: post
+      params_type: json
+      test_data:
+        asn_code: '%(asn_code)s'
+        supplier: Supplier Name-13
+        goods_code:
+          - 'A000038'
+        goods_qty:
+          - 6
+        creater: admin
+      assert_info:
+        jsonpath: $..detail
+        expect: success
+test04:
+  data:
+    - url: /asn/list/
+      method: get
+      params_type: form
+      test_data: null
+      set_arg:
+        - asn_no: $..results[0].id
+      assert_info:
+        jsonpath: $..creater
+        expect: admin
+test05:
+  data:
+    - url: '/asn/preload/%(asn_no)s/'
+      method: post
+      params_type: json
+      test_data:
+        name: admin
+        password: 123456
+      set_arg:
+        - asn_code: $..asn_code
+      assert_info:
+        jsonpath: $..creater
+        expect: admin

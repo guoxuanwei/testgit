@@ -1,0 +1,28 @@
+{
+  "test01": {
+    "url": "/login/",
+    "method": "post",
+    "params_type": "json",
+    "test_data": {
+      "name": "admin",
+      "password": "123456"
+    },
+    "assert_info": {
+      "jsonpath": "$..code",
+      "expect": "200"
+    }
+  },
+  "test02": {
+    "url": "/login/",
+    "method": "post",
+    "params_type": "json",
+    "test_data": {
+      "name": "admin111",
+      "password": "123456111"
+    },
+    "assert_info": {
+      "jsonpath": "$..code",
+      "expect": "200"
+    }
+  }
+}

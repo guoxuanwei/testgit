@@ -1,0 +1,11 @@
+- url: /login/
+  method: post
+  params_type: json
+  test_data:
+    name: admin
+    password: 123456
+  assert_info:
+    jsonpath: $..code
+    expect: '200'
+  update_header:
+    - token: $..openid
